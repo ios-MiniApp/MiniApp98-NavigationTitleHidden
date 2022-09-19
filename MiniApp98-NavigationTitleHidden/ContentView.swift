@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink(destination: SecondView1()) {
+            NavigationLink(destination: SecondView()) {
                 Text("次の画面へ")
             }
         }

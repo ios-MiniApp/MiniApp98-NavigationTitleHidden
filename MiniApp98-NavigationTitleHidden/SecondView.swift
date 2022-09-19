@@ -1,14 +1,14 @@
 import SwiftUI
 
-struct SecondView1: View {
+struct SecondView: View {
     var body: some View {
         Color.green
             .navigationBarHidden(true)
     }
 }
 
-struct SecondView1_Previews: PreviewProvider {
+struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView1()
+        SecondView()
     }
 }
