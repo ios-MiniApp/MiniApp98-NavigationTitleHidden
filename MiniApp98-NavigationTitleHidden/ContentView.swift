@@ -1,21 +1,12 @@
-//
-//  ContentView.swift
-//  MiniApp98-NavigationTitleHidden
-//
-//  Created by 前田航汰 on 2022/09/19.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            NavigationLink(destination: SecondView1()) {
+                Text("次の画面へ")
+            }
         }
-        .padding()
     }
 }
 

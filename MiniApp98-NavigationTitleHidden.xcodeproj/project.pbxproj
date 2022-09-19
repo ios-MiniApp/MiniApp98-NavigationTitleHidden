@@ -11,6 +11,7 @@
 		87DDF7F528D8ABFF00D0085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDF7F428D8ABFF00D0085F /* ContentView.swift */; };
 		87DDF7F728D8AC0000D0085F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDF7F628D8AC0000D0085F /* Assets.xcassets */; };
 		87DDF7FA28D8AC0000D0085F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDF7F928D8AC0000D0085F /* Preview Assets.xcassets */; };
+		87DDF80128D8AC2900D0085F /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDF80028D8AC2900D0085F /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		87DDF7F428D8ABFF00D0085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87DDF7F628D8AC0000D0085F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DDF7F928D8AC0000D0085F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87DDF80028D8AC2900D0085F /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				87DDF7F228D8ABFF00D0085F /* MiniApp98_NavigationTitleHiddenApp.swift */,
 				87DDF7F428D8ABFF00D0085F /* ContentView.swift */,
+				87DDF80028D8AC2900D0085F /* SecondView.swift */,
 				87DDF7F628D8AC0000D0085F /* Assets.xcassets */,
 				87DDF7F828D8AC0000D0085F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DDF80128D8AC2900D0085F /* SecondView.swift in Sources */,
 				87DDF7F528D8ABFF00D0085F /* ContentView.swift in Sources */,
 				87DDF7F328D8ABFF00D0085F /* MiniApp98_NavigationTitleHiddenApp.swift in Sources */,
 			);
